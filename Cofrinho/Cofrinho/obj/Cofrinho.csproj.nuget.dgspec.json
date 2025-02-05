@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj": {}
+    "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj": {
+    "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
+        "projectUniqueName": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
         "projectName": "Cofrinho",
-        "projectPath": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
+        "projectPath": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
         "packagesPath": "C:\\Users\\pedri\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\obj\\",
+        "outputPath": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- Colocando a imagem no Grid.Column="0" -->
-        <Image Grid.Column="0" Source="D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\Img\logo_porquinho.png" 
+        <Image Grid.Column="0" Source="D:\Dev\meus projetos\Cofrinho\Cofrinho\Cofrinho\Img\logo_porquinho.png" 
                Width="103" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="-15,-28,0,-28"/>
 
         <!-- Texto alinhado à direita -->
