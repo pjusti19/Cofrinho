@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\barramenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\barramenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "barraMenu.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-05T02:08:36.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\MainWindow.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
+              "RelativeToolTip": "Cofrinho\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-05T02:08:18.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
