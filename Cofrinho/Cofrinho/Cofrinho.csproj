@@ -9,9 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\userControls\logo_porquinho.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Controller\" />
     <Folder Include="Model\" />
     <Folder Include="Img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\userControls\logo_porquinho.png" />
   </ItemGroup>
 
 </Project>

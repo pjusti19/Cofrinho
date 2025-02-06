@@ -4,25 +4,36 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Cofrinho.View.userControls"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
              mc:Ignorable="d" 
              d:DesignHeight="40" d:DesignWidth="800">
 
     <Grid Grid.Row="0" Background="#4d4d4d">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
 
-        <!-- Colocando a imagem no Grid.Column="0" -->
-        <Image Grid.Column="0" Source="D:\Dev\meus projetos\Cofrinho\Cofrinho\Cofrinho\Img\logo_porquinho.png" 
-               Width="103" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="-15,-28,0,-28"/>
+            <!-- Botao de compartilhar -->
+            <Button Name="btnExportar"  Width="60" Height="40"  
+            HorizontalAlignment="Right" Margin="0,0,30,0" Background="Transparent" BorderThickness="0" >
+                <iconPacks:PackIconMaterial Kind="ExportVariant" Width="24" Height="24" Foreground="White"/>
+            </Button>
+            <!--Botao de minimizar-->    
+            <Button Name="btnMinimizar" Width="50" Height="40"
+                    BorderBrush="Transparent" Background="Transparent" Click="btnMinimizar_Click">
+                    <iconPacks:PackIconMaterial Kind="WindowMinimize" Width="24" Height="5" Foreground="White"/>
+             </Button>
+            <!--Botao de maximizar-->
+             <Button Name="btnMaximizar" Width="50" Height="40"
+                     BorderBrush="Transparent" Background="Transparent" Click="btnMaximizar_Click">
+                     <iconPacks:PackIconMaterial Kind="WindowMaximize" Width="24" Height="20" Foreground="White"/>
+            </Button>
+            <!--Botao de fechar-->
+            <Button Name="btnFechar" Width="50" Height="40"
+                    BorderBrush="Transparent" Background="Transparent" Click="btnFechar_Click">
+                    <iconPacks:PackIconMaterial Kind="WindowClose" Width="24" Height="15" Foreground="White"/>
+            </Button>
 
-        <!-- Texto alinhado à direita -->
-        <TextBlock Text="O exportar vem aqui" 
-               Grid.Column="1" 
-               HorizontalAlignment="Right"
-               VerticalAlignment="Center"
-               Margin="0,0,10,0"
-               Foreground="White"/>
+
+            
+        </StackPanel>
     </Grid>
 </UserControl>

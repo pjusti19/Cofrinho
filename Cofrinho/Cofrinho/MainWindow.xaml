@@ -5,16 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cofrinho"
         xmlns:userControls="clr-namespace:Cofrinho.View.userControls"
-        mc:Ignorable="d"
+        mc:Ignorable="d" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0" CaptionHeight="0" />
+    </WindowChrome.WindowChrome>
+
+        <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
         <!-- Barra de menu -->
-        <Rectangle Grid.Row="0" Fill="#4d4d4d"/>
         <userControls:barraMenu/>
 
 

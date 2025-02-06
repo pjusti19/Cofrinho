@@ -24,5 +24,6 @@ namespace Cofrinho.View.userControls
         {
             InitializeComponent();
         }
+
     }
 }
