@@ -19,6 +19,28 @@ namespace Cofrinho
         public MainWindow()
         {
             InitializeComponent();
+
         }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove();
+        }
+
+        private void btnMinimizar_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void btnMaximizar_Click(object sender, RoutedEventArgs e)
+        {
+            WindowState = (WindowState == WindowState.Maximized) ? WindowState.Normal : WindowState.Maximized;
+        }
+
+        private void btnFechar_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
     }
 }
