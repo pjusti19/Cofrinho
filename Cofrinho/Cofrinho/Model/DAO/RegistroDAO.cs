@@ -65,7 +65,6 @@ namespace Cofrinho.Model.DAO
                 {
                     Console.WriteLine("Nenhum registro encontrado.");
                 }
-
                 return registro;
             }
         }

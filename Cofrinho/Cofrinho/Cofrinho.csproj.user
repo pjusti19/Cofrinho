@@ -7,13 +7,13 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="View\userControls\areaDeTrabalho.xaml.cs">
+    <Compile Update="View\userControls\AreaDeTrabalho.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\userControls\barraLateral.xaml.cs">
+    <Compile Update="View\userControls\BarraLateral.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\userControls\barraMenu.xaml.cs">
+    <Compile Update="View\userControls\BarraMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -1,94 +1,70 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Cofrinho.Model.DBHelper;
+using Cofrinho.Model.DTO;
 using Dapper;
 using System.Data.SQLite;
-using Cofrinho.Model.DTO;
-using Cofrinho.Model.DBHelper;
 
-namespace Cofrinho.Model.DAO
+public class ExtratoDAO : IDisposable
 {
-    public class ExtratoDAO
+    private readonly SQLiteConnection _conexao;
+
+    public ExtratoDAO()
     {
-        private readonly ConexaoDB conexaoDB;
+        _conexao = new ConexaoDB().GetConexao();
+        CriarTabela();
+    }
 
-        public ExtratoDAO()
-        {
-            conexaoDB = new ConexaoDB();
-            CriarTabela();
-        }
+    // Criar a tabela se não existir
+    private void CriarTabela()
+    {
+        _conexao.Execute(@"
+            CREATE TABLE IF NOT EXISTS Extrato (
+                IdExtrato INTEGER PRIMARY KEY,
+                NomeRegistro TEXT NOT NULL,
+                NomeProprietario TEXT NOT NULL,
+                Descricao TEXT NOT NULL
+            );
+        ");
+    }
 
-        // Criar a tabela se não existir
-        private void CriarTabela()
-        {
-            using (var conexao = conexaoDB.GetConexao())
-            {
-                conexao.Execute(@"
-                    CREATE TABLE IF NOT EXISTS Extrato (
-                        IdExtrato INTEGER PRIMARY KEY,
-                        NomeRegistro TEXT NOT NULL,
-                        NomeProprietario TEXT NOT NULL,
-                        Descricao TEXT NOT NULL
-                    );
-                ");
-            }
-        }
+    public void Inserir(Extrato extrato)
+    {
+        string sql = @"INSERT INTO Extrato (IdExtrato, NomeRegistro, NomeProprietario, Descricao) 
+                       VALUES (@IdExtrato, @NomeRegistro, @NomeProprietario, @Descricao)";
+        _conexao.Execute(sql, extrato);
+    }
 
-        public void Inserir(Extrato extrato)
-        {
-            using (var conexao = conexaoDB.GetConexao())
-            {
-                string sql = @"INSERT INTO Extrato (IdExtrato, NomeRegistro, NomeProprietario, Descricao) 
-                               VALUES (@IdExtrato, @NomeRegistro, @NomeProprietario, @Descricao)";
-                conexao.Execute(sql, extrato);
-            }
-        }
+    public List<Extrato> ObterTodos()
+    {
+        string sql = "SELECT * FROM Extrato";
+        return _conexao.Query<Extrato>(sql).ToList();
+    }
 
-        public List<Extrato> ObterTodos()
-        {
-            using (var conexao = conexaoDB.GetConexao())
-            {
-                string sql = "SELECT * FROM Extrato";
-                return conexao.Query<Extrato>(sql).ToList();
-            }
-        }
+    public Extrato ObterPorId(int id)
+    {
+        string sql = "SELECT * FROM Extrato WHERE IdExtrato = @Id";
+        return _conexao.QueryFirstOrDefault<Extrato>(sql, new { Id = id });
+    }
 
-        public Extrato ObterPorId(int id)
-        {
-            using (var conexao = conexaoDB.GetConexao())
-            {
-                string sql = "SELECT * FROM Extrato WHERE IdExtrato = @Id";
-                var extrato = conexao.QueryFirstOrDefault<Extrato>(sql, new { Id = id });
+    public void Atualizar(Extrato extrato)
+    {
+        string sql = @"UPDATE Extrato 
+                       SET NomeRegistro = @NomeRegistro, 
+                           NomeProprietario = @NomeProprietario, 
+                           Descricao = @Descricao
+                       WHERE IdExtrato = @IdExtrato";
+        _conexao.Execute(sql, extrato);
+    }
 
-                if (extrato == null)
-                {
-                    Console.WriteLine("Nenhum extrato encontrado.");
-                }
+    public void Deletar(int id)
+    {
+        string sql = "DELETE FROM Extrato WHERE IdExtrato = @Id";
+        _conexao.Execute(sql, new { Id = id });
+    }
 
-                return extrato;
-            }
-        }
-
-        public void Atualizar(Extrato extrato)
-        {
-            using (var conexao = conexaoDB.GetConexao())
-            {
-                string sql = @"UPDATE Extrato 
-                               SET NomeRegistro = @NomeRegistro, 
-                                   NomeProprietario = @NomeProprietario, 
-                                   Descricao = @Descricao
-                               WHERE IdExtrato = @IdExtrato";
-                conexao.Execute(sql, extrato);
-            }
-        }
-
-        public void Deletar(int id)
-        {
-            using (var conexao = conexaoDB.GetConexao())
-            {
-                string sql = "DELETE FROM Extrato WHERE IdExtrato = @Id";
-                conexao.Execute(sql, new { Id = id });
-            }
-        }
+    // Método para fechar a conexão quando o objeto for descartado
+    public void Dispose()
+    {
+        _conexao?.Close();
+        _conexao?.Dispose();
     }
 }
