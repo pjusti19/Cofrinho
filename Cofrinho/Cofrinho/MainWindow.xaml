@@ -29,11 +29,11 @@
             </Grid.ColumnDefinitions>
 
             <!-- Barra lateral -->
-            <Rectangle Fill="#424141"/>
+            <userControls:barraLateral x:Name="BarraLateral" Grid.Column="0" />
 
 
             <!-- Área de trabalho -->
-            <Rectangle Grid.Column="1" Fill="#3b3b3b"/>
+            <userControls:areaDeTrabalho x:Name="AreaDeTrabalho" Grid.Column="1" />
         </Grid>
     </Grid>
 </Window>
