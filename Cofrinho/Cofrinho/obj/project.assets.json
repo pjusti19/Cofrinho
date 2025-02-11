@@ -1878,23 +1878,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\roger\\.nuget\\packages\\": {},
+    "C:\\Users\\pedri\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
+      "projectUniqueName": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
       "projectName": "Cofrinho",
-      "projectPath": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
-      "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\obj\\",
+      "projectPath": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho.csproj",
+      "packagesPath": "C:\\Users\\pedri\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

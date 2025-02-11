@@ -14,8 +14,8 @@
 
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Model\" />
     <Folder Include="Img\" />
+    <Folder Include="Model\DAO\" />
   </ItemGroup>
 
   <ItemGroup>

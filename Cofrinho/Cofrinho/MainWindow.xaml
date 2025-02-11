@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
 
         <!-- Barra de menu -->
-        <userControls:barraMenu/>
+        <userControls:barraMenu x:Name="BarraMenu"/>
 
 
         <!-- Tela principal -->
