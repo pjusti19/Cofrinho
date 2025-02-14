@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Cofrinho"
         xmlns:userControls="clr-namespace:Cofrinho.View.userControls"
         mc:Ignorable="d" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Icon="D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\Img\icone.ico">
+    
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CaptionHeight="0" />
     </WindowChrome.WindowChrome>
@@ -18,7 +20,7 @@
         </Grid.RowDefinitions>
 
         <!-- Barra de menu -->
-        <userControls:barraMenu/>
+        <userControls:barraMenu x:Name="BarraMenu"/>
 
 
         <!-- Tela principal -->
@@ -29,11 +31,11 @@
             </Grid.ColumnDefinitions>
 
             <!-- Barra lateral -->
-            <Rectangle Fill="#424141"/>
+            <userControls:barraLateral x:Name="BarraLateral" Grid.Column="0" />
 
 
             <!-- Área de trabalho -->
-            <Rectangle Grid.Column="1" Fill="#3b3b3b"/>
+            <userControls:areaDeTrabalho x:Name="AreaDeTrabalho" Grid.Column="1" />
         </Grid>
     </Grid>
 </Window>

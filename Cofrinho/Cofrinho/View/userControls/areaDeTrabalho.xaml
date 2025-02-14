@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Cofrinho.View.userControls.areaDeTrabalho"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Cofrinho.View.userControls"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid Background="#3b3b3b">
+        <!-- Usando StackPanel para alinhar ícones e botões verticalmente -->
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!-- Ícone da Tabela -->
+            <iconPacks:PackIconMaterialLight Kind="Table" Width="200" Height="58" Foreground="#ddac00"/>
+
+            <!-- Botão para Criar Extrato -->
+            <Button Name="btnCriarExtrato" Content="Criar novo extrato" 
+                    HorizontalAlignment="Center" BorderBrush="Transparent"
+                    Background="Transparent" Foreground="#ddac00" FontSize="15" 
+                    FontFamily="pack://application:,,,/Fonts/#Nunito" 
+                    Cursor="Hand"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

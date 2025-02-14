@@ -15,14 +15,30 @@ using System.Windows.Shapes;
 
 namespace Cofrinho.View.userControls
 {
-    /// <summary>
-    /// Interação lógica para barraMenu.xam
-    /// </summary>
     public partial class barraMenu : UserControl
     {
+        // Eventos personalizados
+        public event RoutedEventHandler MinimizarClicked;
+        public event RoutedEventHandler MaximizarClicked;
+        public event RoutedEventHandler FecharClicked;
+
         public barraMenu()
         {
             InitializeComponent();
+        }
+
+        private void btnMinimizar_Click(object sender, RoutedEventArgs e)
+        {
+            MinimizarClicked?.Invoke(this, e);
+        }
+
+        private void btnMaximizar_Click(object sender, RoutedEventArgs e)
+        {
+            MaximizarClicked?.Invoke(sender, e);
+        }
+        private void btnFechar_Click(object sender, RoutedEventArgs e)
+        {
+            FecharClicked?.Invoke(this, e);
         }
 
     }

@@ -9,6 +9,9 @@
              d:DesignHeight="40" d:DesignWidth="800">
 
     <Grid Grid.Row="0" Background="#4d4d4d">
+        <Image Source="D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\Img\logo_porquinho.png" HorizontalAlignment="Left" VerticalAlignment="Center"
+               Width="90" Height="86"/>
+
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
 
             <!-- Botao de compartilhar -->
@@ -16,24 +19,39 @@
             HorizontalAlignment="Right" Margin="0,0,30,0" Background="Transparent" BorderThickness="0" >
                 <iconPacks:PackIconMaterial Kind="ExportVariant" Width="24" Height="24" Foreground="White"/>
             </Button>
-            <!--Botao de minimizar-->    
+            <!--Botao de minimizar-->
             <Button Name="btnMinimizar" Width="50" Height="40"
                     BorderBrush="Transparent" Background="Transparent" Click="btnMinimizar_Click">
-                    <iconPacks:PackIconMaterial Kind="WindowMinimize" Width="24" Height="5" Foreground="White"/>
-             </Button>
+                <iconPacks:PackIconMaterialLight Kind="Minus" Width="24" Height="5" Foreground="White"/>
+            </Button>
             <!--Botao de maximizar-->
-             <Button Name="btnMaximizar" Width="50" Height="40"
+            <Button Name="btnMaximizar" Width="50" Height="40"
                      BorderBrush="Transparent" Background="Transparent" Click="btnMaximizar_Click">
-                     <iconPacks:PackIconMaterial Kind="WindowMaximize" Width="24" Height="20" Foreground="White"/>
+                <iconPacks:PackIconMaterial Kind="WindowMaximize" Width="24" Height="20" Foreground="White"/>
             </Button>
             <!--Botao de fechar-->
-            <Button Name="btnFechar" Width="50" Height="40"
-                    BorderBrush="Transparent" Background="Transparent" Click="btnFechar_Click">
-                    <iconPacks:PackIconMaterial Kind="WindowClose" Width="24" Height="15" Foreground="White"/>
+            <Button Name="btnFechar" Width="50" Height="40" BorderBrush="Transparent" 
+                    Click="btnFechar_Click" Cursor="Hand">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Style.Triggers>
+                            <!-- Hover (MouseOver) -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Red"/>
+                            </Trigger>
+
+                            <!-- Pressionado (IsPressed) -->
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" Value="DarkRed"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <iconPacks:PackIconMaterial Kind="Close" Width="22" Height="15" Foreground="White"/>
             </Button>
 
-
-            
         </StackPanel>
     </Grid>
 </UserControl>
