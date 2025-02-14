@@ -145,3 +145,4 @@ D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\us
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\areaDeTrabalho.baml
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\barraLateral.g.cs
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\barraLateral.baml
+D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\App.baml

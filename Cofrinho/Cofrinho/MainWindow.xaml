@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:Cofrinho"
         xmlns:userControls="clr-namespace:Cofrinho.View.userControls"
         mc:Ignorable="d" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Icon="D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\Img\icone.ico">
+    
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CaptionHeight="0" />
     </WindowChrome.WindowChrome>

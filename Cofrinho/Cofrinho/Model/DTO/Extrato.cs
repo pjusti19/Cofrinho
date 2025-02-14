@@ -13,6 +13,7 @@ namespace Cofrinho.Model.DTO
         public string NomeProprietario { get; set; }
         public string Descricao { get; set; }
 
+        public Extrato() { }
         public Extrato(int id, string nome, string proprietario, string descricao)
         {
             IdExtrato = id;

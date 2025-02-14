@@ -9,6 +9,9 @@
              d:DesignHeight="40" d:DesignWidth="800">
 
     <Grid Grid.Row="0" Background="#4d4d4d">
+        <Image Source="D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\Img\logo_porquinho.png" HorizontalAlignment="Left" VerticalAlignment="Center"
+               Width="90" Height="86"/>
+
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
 
             <!-- Botao de compartilhar -->

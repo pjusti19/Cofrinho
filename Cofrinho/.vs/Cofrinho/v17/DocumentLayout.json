@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\barralateral.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\barralateral.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\viewmodel\\barralateralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\viewmodel\\barralateralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\model\\dao\\extratodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\model\\dao\\extratodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\barralateral.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\barralateral.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\barralateral.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\barralateral.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\barramenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\barramenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\areadetrabalho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\areadetrabalho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +26,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExtratoDAO.cs",
-              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Model\\DAO\\ExtratoDAO.cs",
-              "RelativeDocumentMoniker": "Cofrinho\\Model\\DAO\\ExtratoDAO.cs",
-              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Model\\DAO\\ExtratoDAO.cs",
-              "RelativeToolTip": "Cofrinho\\Model\\DAO\\ExtratoDAO.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T21:27:11.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "barraLateral.xaml",
               "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraLateral.xaml",
               "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\barraLateral.xaml",
@@ -55,37 +38,36 @@
               "RelativeToolTip": "Cofrinho\\View\\userControls\\barraLateral.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-11T14:39:19.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BarraLateral.xaml.cs",
-              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\BarraLateral.xaml.cs",
-              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\BarraLateral.xaml.cs",
-              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\BarraLateral.xaml.cs",
-              "RelativeToolTip": "Cofrinho\\View\\userControls\\BarraLateral.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T20:26:08.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BarraLateralViewModel.cs",
-              "DocumentMoniker": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
-              "RelativeDocumentMoniker": "Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
-              "ToolTip": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
-              "RelativeToolTip": "Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T20:22:23.294Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "areaDeTrabalho.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T04:05:18.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "barraMenu.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\barraMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-14T03:58:56.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Cofrinho\\MainWindow.xaml",
