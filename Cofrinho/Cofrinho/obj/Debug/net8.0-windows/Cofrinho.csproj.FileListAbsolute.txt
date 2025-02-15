@@ -146,3 +146,27 @@ D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\us
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\barraLateral.g.cs
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\barraLateral.baml
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\App.baml
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\areaDeTrabalho.g.cs
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\barraLateral.g.cs
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\cadastrarExtrato.g.cs
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\Input.g.cs
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\App.baml
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\areaDeTrabalho.baml
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\barraLateral.baml
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\cadastrarExtrato.baml
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\Input.baml
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\Dapper.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\EntityFramework.SqlServer.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\EntityFramework.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\System.Data.SQLite.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\System.Data.SQLite.EF6.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

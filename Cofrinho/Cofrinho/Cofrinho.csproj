@@ -30,8 +30,4 @@
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="View\userControls\logo_porquinho.png" />
-  </ItemGroup>
-
 </Project>

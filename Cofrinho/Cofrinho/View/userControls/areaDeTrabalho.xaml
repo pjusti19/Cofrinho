@@ -19,7 +19,8 @@
                     HorizontalAlignment="Center" BorderBrush="Transparent"
                     Background="Transparent" Foreground="#ddac00" FontSize="15" 
                     FontFamily="pack://application:,,,/Fonts/#Nunito" 
-                    Cursor="Hand"/>
+                    Cursor="Hand"
+                    Click="btnCriarExtrato_Click"/>
         </StackPanel>
     </Grid>
 </UserControl>

@@ -24,5 +24,10 @@ namespace Cofrinho.View.userControls
         {
             InitializeComponent();
         }
+
+        private void btnCriarExtrato_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
