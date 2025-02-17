@@ -7,7 +7,7 @@
         xmlns:userControls="clr-namespace:Cofrinho.View.userControls"
         mc:Ignorable="d" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown"
         Title="MainWindow" Height="450" Width="800"
-        Icon="C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\Img\icone.ico">
+        Icon="D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\Img\icone.ico">
     
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="0" CaptionHeight="0" />
@@ -35,7 +35,7 @@
 
 
             <!-- Área de trabalho -->
-            <userControls:areaDeTrabalho x:Name="AreaDeTrabalho" Grid.Column="1" />
+            <ContentControl Content="{Binding ConteudoAtual}" Grid.Column="1" x:Name="AreaDeTrabalho"/>
         </Grid>
     </Grid>
 </Window>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Cofrinho.ViewModel;
 
 namespace Cofrinho.View.userControls
 {
@@ -20,17 +21,16 @@ namespace Cofrinho.View.userControls
     /// </summary>
     public partial class cadastrarExtrato : UserControl
     {
-        public cadastrarExtrato()
+
+        private AreaDeTrabalhoViewModel viewModel;
+
+        public cadastrarExtrato(AreaDeTrabalhoViewModel areaDeTrabalhoViewModel)
         {
             InitializeComponent();
+            viewModel = areaDeTrabalhoViewModel;
         }
 
-        private void UserControl_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Input_Loaded(object sender, RoutedEventArgs e)
+        private void btnCriar_Click(object sender, RoutedEventArgs e)
         {
 
         }

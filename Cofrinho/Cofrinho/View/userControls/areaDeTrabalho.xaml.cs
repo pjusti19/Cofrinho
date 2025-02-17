@@ -12,22 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Cofrinho.ViewModel;
 
 namespace Cofrinho.View.userControls
 {
-    /// <summary>
-    /// Interação lógica para areaDeTrabalho.xam
-    /// </summary>
     public partial class areaDeTrabalho : UserControl
     {
-        public areaDeTrabalho()
+        private AreaDeTrabalhoViewModel viewModel;
+
+        public areaDeTrabalho(AreaDeTrabalhoViewModel areaDeTrabalhoViewModel)
         {
             InitializeComponent();
+            viewModel = areaDeTrabalhoViewModel;
         }
 
         private void btnCriarExtrato_Click(object sender, RoutedEventArgs e)
         {
-
+            viewModel.MudarParaCadastroDeExtrato();
         }
     }
 }

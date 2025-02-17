@@ -9,12 +9,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Cofrinho.View.userControls;
+using Cofrinho.ViewModel;
 using MahApps.Metro.IconPacks;
 
 namespace Cofrinho
 {
     public partial class MainWindow : Window
     {
+        private AreaDeTrabalhoViewModel viewModel = new AreaDeTrabalhoViewModel();
         public MainWindow()
         {
             InitializeComponent();
@@ -23,6 +25,7 @@ namespace Cofrinho
             BarraMenu.MinimizarClicked += btnMinimizar_Click;
             BarraMenu.MaximizarClicked += btnMaximizar_Click;
             BarraMenu.FecharClicked += btnFechar_Click;
+            DataContext = viewModel;
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

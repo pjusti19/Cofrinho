@@ -5,14 +5,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Cofrinho.View.userControls" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800" Loaded="UserControl_Loaded">
+             d:DesignHeight="450" d:DesignWidth="800">
     <Grid  Background="#3b3b3b">
         <Grid.RowDefinitions>
             <RowDefinition Height=".25*"/>
-            <RowDefinition Height=".20*"/>
-            <RowDefinition Height=".20*"/>
-            <RowDefinition Height=".30*"/>
-            <RowDefinition Height=".10*"/>
+            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".15*"/>
+            <RowDefinition Height=".21*"/>
+            <RowDefinition Height=".19*"/>
         </Grid.RowDefinitions>
 
         <Grid>
@@ -26,29 +26,41 @@
         </Grid>
 
         <Grid Grid.Row="1">
-            <local:Input LabelText="Nome do Extrato" InputWidth="100" InputHeight="20"
+            <local:Input LabelText="Nome do Extrato" InputHeight="20"
                          VerticalAlignment="Center"/>
         </Grid>
 
         <Grid Grid.Row="2">
-            <local:Input LabelText="Proprietário do Extrato" InputWidth="100" InputHeight="20"
+            <local:Input LabelText="Proprietário do Extrato"  InputHeight="20"
                  VerticalAlignment="Center"/>
         </Grid>
 
         <Grid Grid.Row="3">
-            <local:Input LabelText="Descrição" InputWidth="100" InputHeight="50"
+            <local:Input LabelText="Descrição" InputHeight="52"
                  VerticalAlignment="Center"/>
         </Grid>
-        
-            <Grid Grid.Row="4">
-            <Border CornerRadius="10" Background="#ddac00" Margin="364,0,364,10" >
-                <Button Name="btnCriar" Content="Criar" 
-                        HorizontalAlignment="Center" VerticalAlignment="Center"
-                        BorderBrush="Transparent" Background="#ddac00" FontSize="15" 
-                        FontFamily="pack://application:,,,/Fonts/#Nunito" 
-                        Cursor="Hand" Width="57"/>
-            </Border>
-            </Grid>
-        
+
+        <Grid Grid.Row="4" VerticalAlignment="Center">
+             <Button Name="btnCriar" Content="Criar" Click="btnCriar_Click"
+                     HorizontalAlignment="Center" VerticalAlignment="Center"
+                     BorderBrush="Black" Background="#ddac00" FontSize="15"
+                     FontFamily="pack://application:,,,/Fonts/#Nunito"
+                     Cursor="Hand" Width="70" Height="30"
+                     Foreground="Black">
+                 <Button.Template>
+                     <ControlTemplate TargetType="Button">
+                         <Border Background="{TemplateBinding Background}"
+                                 BorderBrush="{TemplateBinding BorderBrush}"
+                                 BorderThickness="1"
+                                 CornerRadius="15">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                  VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </Grid>
+
     </Grid>
 </UserControl>

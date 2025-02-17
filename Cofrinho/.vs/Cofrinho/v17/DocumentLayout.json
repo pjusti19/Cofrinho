@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\",
+  "WorkspaceRootPath": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|c:\\users\\roger\\onedrive\\documentos\\dev\\cofrinho\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\cadastrarextrato.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\cadastrarextrato.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\cadastrarextrato.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\cadastrarextrato.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\cadastrarextrato.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|c:\\users\\roger\\onedrive\\documentos\\dev\\cofrinho\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\input.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\input.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\input.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|c:\\users\\roger\\onedrive\\documentos\\dev\\cofrinho\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\areadetrabalho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\areadetrabalho.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|c:\\users\\roger\\onedrive\\documentos\\dev\\cofrinho\\cofrinho\\cofrinho\\cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -31,46 +31,47 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "areaDeTrabalho.xaml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
-              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
-              "RelativeToolTip": "Cofrinho\\View\\userControls\\areaDeTrabalho.xaml",
+              "Title": "Input.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\Input.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\Input.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-15T21:10:51.212Z",
+              "WhenOpened": "2025-02-17T04:19:52.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Input.xaml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
-              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\Input.xaml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
-              "RelativeToolTip": "Cofrinho\\View\\userControls\\Input.xaml",
+              "Title": "cadastrarExtrato.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-15T20:13:36.758Z",
+              "WhenOpened": "2025-02-17T04:00:19.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "cadastrarExtrato.xaml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
-              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
-              "RelativeToolTip": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-15T19:48:51.122Z",
+              "Title": "cadastrarExtrato.xaml.cs",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:45:49.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Cofrinho\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\Documentos\\dev\\cofrinho\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
               "RelativeToolTip": "Cofrinho\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-05T02:08:18.153Z",

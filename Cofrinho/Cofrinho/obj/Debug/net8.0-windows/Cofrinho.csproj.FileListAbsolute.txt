@@ -170,3 +170,7 @@ C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\D
 C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\roger\OneDrive\Documentos\dev\cofrinho\Cofrinho\Cofrinho\Cofrinho\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\cadastrarExtrato.g.cs
+D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\Input.g.cs
+D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\cadastrarExtrato.baml
+D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\Input.baml

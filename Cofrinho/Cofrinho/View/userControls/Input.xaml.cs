@@ -46,9 +46,5 @@ namespace Cofrinho.View.userControls
         public static readonly DependencyProperty InputHeightProperty =
             DependencyProperty.Register("InputHeight", typeof(double), typeof(Input), new PropertyMetadata(30.0));
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
     }
 }
