@@ -174,3 +174,4 @@ D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\us
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\Input.g.cs
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\cadastrarExtrato.baml
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\View\userControls\Input.baml
+D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\obj\Debug\net8.0-windows\Estilos\ScrollBarStyles.baml

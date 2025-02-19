@@ -27,17 +27,17 @@
 
         <Grid Grid.Row="1">
             <local:Input LabelText="Nome do Extrato" InputHeight="20"
-                         VerticalAlignment="Center"/>
+                         VerticalAlignment="Center" x:Name="inputNome"/>
         </Grid>
 
         <Grid Grid.Row="2">
             <local:Input LabelText="Proprietário do Extrato"  InputHeight="20"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center" x:Name="inputProprietario"/>
         </Grid>
 
         <Grid Grid.Row="3">
             <local:Input LabelText="Descrição" InputHeight="52"
-                 VerticalAlignment="Center"/>
+                 VerticalAlignment="Center" x:Name="inputDescricao"/>
         </Grid>
 
         <Grid Grid.Row="4" VerticalAlignment="Center">

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\cadastrarextrato.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\cadastrarextrato.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\barralateral.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\barralateral.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\barralateral.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\barralateral.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\cadastrarextrato.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -15,8 +19,16 @@
       "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\input.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\viewmodel\\barralateralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\viewmodel\\barralateralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\estilos\\scrollbarstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\estilos\\scrollbarstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|d:\\dev\\meus projetos\\cofrinho\\cofrinho\\cofrinho\\view\\usercontrols\\cadastrarextrato.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA0AF986-8315-4431-B921-A4E4FE91775A}|Cofrinho\\Cofrinho.csproj|solutionrelative:cofrinho\\view\\usercontrols\\cadastrarextrato.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +38,93 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Input.xaml",
-              "DocumentMoniker": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
-              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\Input.xaml",
-              "ToolTip": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
-              "RelativeToolTip": "Cofrinho\\View\\userControls\\Input.xaml",
+              "DocumentIndex": 5,
+              "Title": "ScrollBarStyles.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Estilos\\ScrollBarStyles.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\Estilos\\ScrollBarStyles.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\Estilos\\ScrollBarStyles.xaml",
+              "RelativeToolTip": "Cofrinho\\Estilos\\ScrollBarStyles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-17T04:19:52.366Z",
+              "WhenOpened": "2025-02-19T01:33:49.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Input.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\Input.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\Input.xaml",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\Input.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-19T01:08:37.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BarraLateralViewModel.cs",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
+              "RelativeDocumentMoniker": "Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
+              "RelativeToolTip": "Cofrinho\\ViewModel\\BarraLateralViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAkwBgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:06:34.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cadastrarExtrato.xaml.cs",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T23:05:07.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "cadastrarExtrato.xaml",
               "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
               "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
               "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
               "RelativeToolTip": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-17T04:00:19.327Z",
+              "WhenOpened": "2025-02-18T22:57:49.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "cadastrarExtrato.xaml.cs",
-              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
-              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
-              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
-              "RelativeToolTip": "Cofrinho\\View\\userControls\\cadastrarExtrato.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T03:45:49.678Z",
+              "Title": "barraLateral.xaml",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraLateral.xaml",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\barraLateral.xaml",
+              "ToolTip": "D:\\Dev\\meus projetos\\cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraLateral.xaml",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\barraLateral.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-18T21:54:16.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Cofrinho\\MainWindow.xaml",
-              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\MainWindow.xaml",
-              "RelativeToolTip": "Cofrinho\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-05T02:08:18.153Z",
+              "DocumentIndex": 1,
+              "Title": "barraLateral.xaml.cs",
+              "DocumentMoniker": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraLateral.xaml.cs",
+              "RelativeDocumentMoniker": "Cofrinho\\View\\userControls\\barraLateral.xaml.cs",
+              "ToolTip": "D:\\Dev\\meus projetos\\Cofrinho\\Cofrinho\\Cofrinho\\View\\userControls\\barraLateral.xaml.cs",
+              "RelativeToolTip": "Cofrinho\\View\\userControls\\barraLateral.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T22:32:07.91Z",
               "EditorCaption": ""
             }
           ]

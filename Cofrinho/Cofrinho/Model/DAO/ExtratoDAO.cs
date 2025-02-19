@@ -18,7 +18,7 @@ public class ExtratoDAO : IDisposable
     {
         _conexao.Execute(@"
             CREATE TABLE IF NOT EXISTS Extrato (
-                IdExtrato INTEGER PRIMARY KEY,
+                IdExtrato INTEGER PRIMARY KEY AUTOINCREMENT,
                 NomeRegistro TEXT NOT NULL,
                 NomeProprietario TEXT NOT NULL,
                 Descricao TEXT NOT NULL
@@ -28,8 +28,8 @@ public class ExtratoDAO : IDisposable
 
     public void Inserir(Extrato extrato)
     {
-        string sql = @"INSERT INTO Extrato (IdExtrato, NomeRegistro, NomeProprietario, Descricao) 
-                       VALUES (@IdExtrato, @NomeRegistro, @NomeProprietario, @Descricao)";
+        string sql = @"INSERT INTO Extrato (NomeRegistro, NomeProprietario, Descricao) 
+                       VALUES (@NomeRegistro, @NomeProprietario, @Descricao)";
         _conexao.Execute(sql, extrato);
     }
 

@@ -9,7 +9,6 @@ namespace Cofrinho.ViewModel
 {
     public class AreaDeTrabalhoViewModel : BaseViewModel
     {
-
         private UserControl _conteudoAtual;
         public UserControl ConteudoAtual
         {
@@ -21,18 +20,17 @@ namespace Cofrinho.ViewModel
             }
         }
 
+        public barraLateralViewModel BarraLateralViewModel { get; private set; } 
+
         public AreaDeTrabalhoViewModel()
         {
-            ConteudoAtual = new areaDeTrabalho(this); // Começa com Tela1
+            BarraLateralViewModel = new barraLateralViewModel(); // Instanciando o barraLateralViewModel
+            ConteudoAtual = new areaDeTrabalho(this);
         }
 
         public void MudarParaCadastroDeExtrato()
         {
-            ConteudoAtual = new cadastrarExtrato(this);
+            ConteudoAtual = new cadastrarExtrato(this, BarraLateralViewModel);
         }
-
-
-
     }
-
 }

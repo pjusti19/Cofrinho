@@ -13,6 +13,14 @@ namespace Cofrinho.View.userControls
             DataContext = barraLateralViewModel;
         }
 
+        private void btnVisualizar_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
 
+        }
+
+        private void btnPesquisar_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+
+        }
     }
 }
