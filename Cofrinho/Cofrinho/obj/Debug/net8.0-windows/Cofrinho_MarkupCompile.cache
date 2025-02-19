@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\App.xaml
-4-1000360971
+7-1759132263
 
-151336991590
-242-763333444
-MainWindow.xaml;View\userControls\areaDeTrabalho.xaml;View\userControls\barraLateral.xaml;View\userControls\barraMenu.xaml;
+181656013671
+242-104670455
+Estilos\ScrollBarStyles.xaml;MainWindow.xaml;View\userControls\areaDeTrabalho.xaml;View\userControls\barraLateral.xaml;View\userControls\barraMenu.xaml;View\userControls\cadastrarExtrato.xaml;View\userControls\Input.xaml;
 
 False
 

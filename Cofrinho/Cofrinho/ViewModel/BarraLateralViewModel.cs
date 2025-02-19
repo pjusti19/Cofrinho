@@ -5,7 +5,7 @@ using Cofrinho.ViewModel.ViewModelHelper;
 
 namespace Cofrinho.ViewModel
 {
-    internal class barraLateralViewModel : BaseViewModel
+    public class barraLateralViewModel : BaseViewModel
     {
 
         private ObservableCollection<Extrato> _extratos;
@@ -26,6 +26,7 @@ namespace Cofrinho.ViewModel
 
         public barraLateralViewModel()
         {
+            Extratos = new ObservableCollection<Extrato>(); // Inicializa aqui
             CarregarRegistros();
         }
 
@@ -34,8 +35,15 @@ namespace Cofrinho.ViewModel
             using (ExtratoDAO extratoDAO = new ExtratoDAO())
             {
                 List<Extrato> lista = extratoDAO.ObterTodos();
-                Extratos = new ObservableCollection<Extrato>(lista);
+                foreach (Extrato extrato in lista)
+                {
+                    Extratos.Add(extrato); // Adiciona diretamente na ObservableCollection
+                }
             }
+        }
+        public void AdicionarExtrato(Extrato extrato)
+        {
+            Extratos.Add(extrato);
         }
 
     }

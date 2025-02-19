@@ -35,7 +35,7 @@
 
 
             <!-- Área de trabalho -->
-            <userControls:areaDeTrabalho x:Name="AreaDeTrabalho" Grid.Column="1" />
+            <ContentControl Content="{Binding ConteudoAtual}" Grid.Column="1" x:Name="AreaDeTrabalho"/>
         </Grid>
     </Grid>
 </Window>

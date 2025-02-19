@@ -16,8 +16,17 @@
     <Compile Update="View\userControls\BarraMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\userControls\cadastrarExtrato.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\userControls\Input.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Estilos\ScrollBarStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -28,6 +37,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\userControls\barraMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControls\cadastrarExtrato.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\userControls\Input.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

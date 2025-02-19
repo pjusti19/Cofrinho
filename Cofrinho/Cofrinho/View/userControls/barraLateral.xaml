@@ -4,29 +4,78 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Cofrinho.View.userControls" 
-             xmlns:viewmodel="clr-namespace:Cofrinho.ViewModel"             
+             xmlns:viewmodel="clr-namespace:Cofrinho.ViewModel" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
              mc:Ignorable="d" 
              d:DesignHeight="400" d:DesignWidth="200">
 
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="\Estilos\ScrollBarStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
     <UserControl.DataContext>
         <viewmodel:barraLateralViewModel/>
     </UserControl.DataContext>
 
     <Grid Background="#424141">
         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height=".10*"/>
+                <RowDefinition Height=".90*"/>
+            </Grid.RowDefinitions>
+            
+            <!--Barra de busca-->
+            <Grid Grid.Row="0" Visibility="{Binding MostrarLista, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".8*"/>
+                    <ColumnDefinition Width=".2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                <Border CornerRadius="15" BorderBrush="Gray" BorderThickness="1" Background="#999999" Margin="5,10,4,3">
+                    <TextBox Text="{Binding InputValue, RelativeSource={RelativeSource AncestorType=UserControl}, Mode=TwoWay}"
+                             Background="Transparent" BorderThickness="0" Width="auto" Padding="5,4,2,5"/>
+                    
+                </Border>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Border CornerRadius="14" BorderBrush="Gray" BorderThickness="1" Background="#999999"
+                            Width="32" Height="32" Margin="0,6,8,0">
+                        <Button Name="btnPesquisar" Width="28" Height="28"
+                                BorderBrush="Transparent" Background="Transparent"
+                                Click="btnPesquisar_Click">
+                            <iconPacks:PackIconMaterial Kind="Magnify" Width="20" Height="20" Foreground="Black"
+                                         HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Button>
+                    </Border>
+                </Grid>
+            </Grid>
             <!-- Lista de registros -->
-            <ListView ItemsSource="{Binding Registros}" 
-                      Visibility="{Binding MostrarLista, Converter={StaticResource BooleanToVisibilityConverter}}">
+            <Grid Grid.Row="1">
+            <ListView x:Name="lvExtratos"  ItemsSource="{Binding Extratos}" Background="#424141" BorderBrush="Transparent">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Orientation="Horizontal" Margin="5">
-                            <TextBlock Text="{Binding NomeRegistro}" Foreground="White" FontSize="14" Width="150"/>
-                            <TextBlock Text="{Binding NomeProprietario}" Foreground="White" FontSize="14" Width="200"/>
-                            <TextBlock Text="{Binding Descricao}" Foreground="White" FontSize="14" Width="300"/>
-                        </StackPanel>
+                        <!-- Extrato listado com bordas arredondadas -->
+                        <Border Background="#ddac00" Margin="5" CornerRadius="8" Width="157" Padding="5,5,5,10">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height=".50*"/>
+                                    <RowDefinition Height=".50*"/>
+                                </Grid.RowDefinitions>
+                                <TextBlock Text="{Binding NomeRegistro}" Foreground="Black" FontSize="14" FontWeight="Bold" Grid.Row="0"/>
+                                <Button Name="btnVisualizar" Width="25" Height="21" HorizontalAlignment="Right"
+                                        BorderBrush="Transparent" Background="Transparent" Grid.Row="0" Click="btnVisualizar_Click">
+                                    <iconPacks:PackIconMaterial Kind="Eye" Width="20" Height="20" Foreground="Black"/>
+                                </Button>
+                                <TextBlock Text="{Binding NomeProprietario, StringFormat='Por {0}'}" Foreground="Black" FontSize="14" Grid.Row="1"/>
+                            </Grid>
+                        </Border>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            </Grid>
             <!-- Mensagem caso não tenha registros -->
             <TextBlock Text="&lt;Nenhum extrato encontrado&gt;" 
                        Foreground="#ddac00"
@@ -37,4 +86,3 @@
         </Grid>
     </Grid>
 </UserControl>
-    
