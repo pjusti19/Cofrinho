@@ -8,6 +8,37 @@
              mc:Ignorable="d" 
              d:DesignHeight="40" d:DesignWidth="800">
 
+
+    <UserControl.Resources>
+        <Style x:Key="botaoFechar" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" 
+                                Cursor="{TemplateBinding Cursor}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>    
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Red"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="DarkRed"/>
+                </Trigger>
+            </Style.Triggers>
+            
+        </Style>
+    </UserControl.Resources>
+    
     <Grid Grid.Row="0" Background="#4d4d4d">
         <Image Source="D:\Dev\meus projetos\cofrinho\Cofrinho\Cofrinho\Img\logo_porquinho.png" HorizontalAlignment="Left" VerticalAlignment="Center"
                Width="90" Height="86"/>
@@ -20,7 +51,7 @@
                 <iconPacks:PackIconMaterial Kind="ExportVariant" Width="24" Height="24" Foreground="White"/>
             </Button>
             <!--Botao de minimizar-->
-            <Button Name="btnMinimizar" Width="50" Height="40"
+            <Button Name="btnMinimizar" Width="50" Height="50"
                     BorderBrush="Transparent" Background="Transparent" Click="btnMinimizar_Click">
                 <iconPacks:PackIconMaterialLight Kind="Minus" Width="24" Height="5" Foreground="White"/>
             </Button>
@@ -30,25 +61,7 @@
                 <iconPacks:PackIconMaterial Kind="WindowMaximize" Width="24" Height="20" Foreground="White"/>
             </Button>
             <!--Botao de fechar-->
-            <Button Name="btnFechar" Width="50" Height="40" BorderBrush="Transparent" 
-                    Click="btnFechar_Click" Cursor="Hand">
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="Transparent"/>
-                        <Style.Triggers>
-                            <!-- Hover (MouseOver) -->
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="Red"/>
-                            </Trigger>
-
-                            <!-- Pressionado (IsPressed) -->
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter Property="Background" Value="DarkRed"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-
+            <Button Name="btnFechar" Width="50" Height="40" Click="btnFechar_Click" Style="{StaticResource botaoFechar}">
                 <iconPacks:PackIconMaterial Kind="Close" Width="22" Height="15" Foreground="White"/>
             </Button>
 

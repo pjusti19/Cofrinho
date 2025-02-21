@@ -6,6 +6,40 @@
              xmlns:local="clr-namespace:Cofrinho.View.userControls" xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style x:Key="botaoCadastrar" TargetType="Button">
+            <Setter Property="Background" Value="#ddac00"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="1"
+                                CornerRadius="15">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#ffc600"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Background" Value="#cb9e00"/>
+                </Trigger>
+            </Style.Triggers>
+
+        </Style>
+    </UserControl.Resources>
+
+
     <Grid  Background="#3b3b3b">
         <Grid.RowDefinitions>
             <RowDefinition Height=".25*"/>
@@ -18,10 +52,9 @@
         <Grid>
             <iconPacks:PackIconMaterialLight Kind="Table" Width="72" Height="58" VerticalAlignment="Center"
                                              Foreground="#ddac00" Margin="30,0,0,0"/>
-            <TextBox HorizontalAlignment="Left" Margin="115,0,0,0" TextWrapping="Wrap" Text="Novo extrato"
+            <TextBlock HorizontalAlignment="Left" Margin="115,0,0,0" TextWrapping="Wrap" Text="Novo extrato" 
                      VerticalAlignment="Center" Width="210" Foreground="#ddac00" FontSize="30" 
-                     Background="Transparent" BorderBrush="Transparent"
-                     FontFamily="pack://application:,,,/Fonts/#NunitoBold"
+                     Background="Transparent" FontFamily="pack://application:,,,/Fonts/#NunitoBold"
                      FontWeight="Bold"/>
         </Grid>
 
@@ -41,23 +74,11 @@
         </Grid>
 
         <Grid Grid.Row="4" VerticalAlignment="Center">
-             <Button Name="btnCriar" Content="Criar" Click="btnCriar_Click"
-                     HorizontalAlignment="Center" VerticalAlignment="Center"
-                     BorderBrush="Black" Background="#ddac00" FontSize="15"
-                     FontFamily="pack://application:,,,/Fonts/#Nunito"
-                     Cursor="Hand" Width="70" Height="30"
-                     Foreground="Black">
-                 <Button.Template>
-                     <ControlTemplate TargetType="Button">
-                         <Border Background="{TemplateBinding Background}"
-                                 BorderBrush="{TemplateBinding BorderBrush}"
-                                 BorderThickness="1"
-                                 CornerRadius="15">
-                            <ContentPresenter HorizontalAlignment="Center" 
-                                  VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Button.Template>
+            <Button Name="btnCriar" Content="Criar" Click="btnCriar_Click" 
+                    Style="{StaticResource botaoCadastrar}" FontSize="15"
+                    FontFamily="pack://application:,,,/Fonts/#Nunito"
+                    Width="70" Height="30"
+                    Foreground="Black">
             </Button>
 
         </Grid>

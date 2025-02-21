@@ -13,7 +13,70 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="\Estilos\ScrollBarStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+
+            <Style x:Key="botaoPesquisar" TargetType="Button">
+                <Setter Property="Background" Value="#999999"/>
+                <Setter Property="BorderBrush" Value="Gray"/>
+                <Setter Property="Cursor" Value="Hand"/>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" 
+                                    Cursor="{TemplateBinding Cursor}" CornerRadius="14" BorderThickness="1" 
+                                    Width="32" Height="32">
+                                <ContentPresenter HorizontalAlignment="Center"
+                              VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#c9c9c9"/>
+                    </Trigger>
+                    <Trigger Property="IsPressed" Value="True">
+                        <Setter Property="Background" Value="Gray"/>
+                    </Trigger>
+                </Style.Triggers>
+
+            </Style>
+
+            <Style x:Key="botaoVisualizar" TargetType="Button">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="BorderBrush" Value="Transparent"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="Foreground" Value="Black"/>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" 
+                                    Cursor="{TemplateBinding Cursor}" HorizontalAlignment="Right" VerticalAlignment="Center">
+                                <iconPacks:PackIconMaterial Kind="Eye" Width="20" Height="20" 
+                                                Foreground="{TemplateBinding Foreground}" 
+                                                HorizontalAlignment="Center" 
+                                                VerticalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Foreground" Value="Gray" />
+                    </Trigger>
+                    <Trigger Property="IsPressed" Value="True">
+                        <Setter Property="Foreground" Value="DarkGray"/>
+                    </Trigger>
+                </Style.Triggers>
+
+            </Style>
+
         </ResourceDictionary>
+
+        
     </UserControl.Resources>
     
     <UserControl.DataContext>
@@ -40,16 +103,14 @@
                     
                 </Border>
                 </Grid>
-                <Grid Grid.Column="1">
-                    <Border CornerRadius="14" BorderBrush="Gray" BorderThickness="1" Background="#999999"
-                            Width="32" Height="32" Margin="0,6,8,0">
-                        <Button Name="btnPesquisar" Width="28" Height="28"
-                                BorderBrush="Transparent" Background="Transparent"
-                                Click="btnPesquisar_Click">
-                            <iconPacks:PackIconMaterial Kind="Magnify" Width="20" Height="20" Foreground="Black"
+                
+                <!--Botão de busca-->
+                <Grid Grid.Column="1" Margin="0,6,8,0">
+                    <Button Name="btnPesquisar" Width="32" Height="32"
+                                Click="btnPesquisar_Click" Style="{StaticResource botaoPesquisar}">
+                        <iconPacks:PackIconMaterial Kind="Magnify" Width="20" Height="20" Foreground="Black"
                                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Button>
-                    </Border>
+                    </Button>
                 </Grid>
             </Grid>
             <!-- Lista de registros -->
@@ -65,9 +126,8 @@
                                     <RowDefinition Height=".50*"/>
                                 </Grid.RowDefinitions>
                                 <TextBlock Text="{Binding NomeRegistro}" Foreground="Black" FontSize="14" FontWeight="Bold" Grid.Row="0"/>
-                                <Button Name="btnVisualizar" Width="25" Height="21" HorizontalAlignment="Right"
-                                        BorderBrush="Transparent" Background="Transparent" Grid.Row="0" Click="btnVisualizar_Click">
-                                    <iconPacks:PackIconMaterial Kind="Eye" Width="20" Height="20" Foreground="Black"/>
+                                <Button Name="btnVisualizar" Grid.Row="0" Click="btnVisualizar_Click" Style="{StaticResource botaoVisualizar}">
+                                    <iconPacks:PackIconMaterial Kind="Eye"/>
                                 </Button>
                                 <TextBlock Text="{Binding NomeProprietario, StringFormat='Por {0}'}" Foreground="Black" FontSize="14" Grid.Row="1"/>
                             </Grid>

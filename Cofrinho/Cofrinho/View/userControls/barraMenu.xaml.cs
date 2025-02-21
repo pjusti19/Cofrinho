@@ -40,6 +40,5 @@ namespace Cofrinho.View.userControls
         {
             FecharClicked?.Invoke(this, e);
         }
-
     }
 }

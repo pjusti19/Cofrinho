@@ -8,19 +8,50 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
 
+    <UserControl.Resources>
+        <Style x:Key="botaoCriar" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Content" Value="Criar novo Extrato"/>
+            <Setter Property="Foreground" Value="#ddac00"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" 
+                            Cursor="{TemplateBinding Cursor}" >
+                            <TextBlock Text="{TemplateBinding Content}" 
+                                  Foreground="{TemplateBinding Foreground}" 
+                                  FontSize="15"
+                                  FontFamily="pack://application:,,,/Fonts/#Nunito"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#ffc600" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="Foreground" Value="#cb9e00"/>
+                </Trigger>
+            </Style.Triggers>
+
+        </Style>
+    </UserControl.Resources>
+
     <Grid Background="#3b3b3b">
         <!-- Usando StackPanel para alinhar ícones e botões verticalmente -->
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <!-- Ícone da Tabela -->
             <iconPacks:PackIconMaterialLight Kind="Table" Width="200" Height="58" Foreground="#ddac00"/>
-
             <!-- Botão para Criar Extrato -->
-            <Button Name="btnCriarExtrato" Content="Criar novo extrato" 
-                    HorizontalAlignment="Center" BorderBrush="Transparent"
-                    Background="Transparent" Foreground="#ddac00" FontSize="15" 
-                    FontFamily="pack://application:,,,/Fonts/#Nunito" 
-                    Cursor="Hand"
-                    Click="btnCriarExtrato_Click"/>
+            <Button x:Name="btnCriarExtrato" Content="Criar novo extrato" Style="{StaticResource botaoCriar}"
+                    Click="btnCriarExtrato_Click" Height="30" />
         </StackPanel>
     </Grid>
 </UserControl>
